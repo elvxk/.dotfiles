@@ -37,3 +37,7 @@ git credential-oauth configure
 cd ~/.dotfiles/ && stow .
 
 echo -e "${BLUE}$line${RESET}"
+
+npm install -g neovim
+
+echo -e "${BLUE}$line${RESET}"
