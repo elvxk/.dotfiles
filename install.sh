@@ -22,7 +22,7 @@ ascii="
 echo -e "${BLUE}$line${RESET}"
 echo -e "${YELLOW}$ascii${RESET}"
 echo -e "${BLUE}$line${RESET}"
-
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 brew install git-credential-oauth node oven-sh/bun/bun stow lazygit ripgrep fd xclip neovim gcc
 
 echo -e "${BLUE}$line${RESET}"
